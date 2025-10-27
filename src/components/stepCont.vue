@@ -1,17 +1,27 @@
 <template>
-   
+  <h1>{{ animeData.title }}</h1>
+  <ul>
+    <li v-for="ep in animeData.episodes" :key="ep">{{ ep }}</li>
+  </ul>
 </template>
-<script setup lang="ts">
-// import { ref } from 'vue'
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
 
-// const step = ref(0)
+// Import du JSON
+import animes from '@/data/animes.json';
 
-// const steps = [
-//   { label: 'Choose your product' },
-//   { label: 'Checkout' },
-//   { label: 'Review order' },
-//   { label: 'Confirm and pay' },
-// ]
+const route = useRoute();
+const animeName = ref(route.params.animeName);
+const animeData = ref({ title: '', episodes: [] });
+
+onMounted(() => {
+  if (animes[animeName.value]) {
+    animeData.value = animes[animeName.value];
+  } else {
+    animeData.value = { title: 'Animé inconnu', episodes: [] };
+  }
+});
 </script>
 <style lang="scss">
 $primary-color: #42b983;
