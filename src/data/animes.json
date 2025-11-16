@@ -4,7 +4,105 @@
     "episodes": ["Épisode 1", "Épisode 2", "Épisode 3"]
   },
   "parasyte": {
-    "title": "Parasyte",
-    "episodes": ["Épisode 1", "Épisode 2", "Épisode 3", "Épisode 4"]
-  }
+  "title": "Parasyte",
+  "episodes": [
+    {
+      "title": "Épisode 1: Transformation",
+      "description": "Un soir, le quotidien de Shin’ichi se voit bouleversé par une sorte de serpent qui tente de s’introduire dans son corps. Assez rapidement, le garçon se rend compte que sa main droite a un comportement étrange depuis que le parasite y est entré."
+    },
+    {
+      "title": "Épisode 2: Le diable au corps",
+      "description": "Izumi se résigne à cohabiter avec son parasite, Migi, qui a au moins le mérite de le protéger d’éventuelles attaques futures. Pour autant, il ne lui facilite pas la vie sur d’autres plans."
+    },
+    {
+      "title": "Épisode 3: Le banquet",
+      "description": "Après deux rencontres avec d’autres parasites qui ont tourné à l’affrontement, Migi et Shin’ichi croisent le chemin d’un parasite au caractère plus posé. Il habite le corps d’une femme, Ryôko Tamiya."
+    },
+    {
+      "title": "Épisode 4: Cheveux emmêlés",
+      "description": "Monsieur A, infiltré dans l’enceinte du lycée, considère Migi comme un danger et a engagé le combat pour l’éliminer. Le parasite brachial a l’idée de jouer de la position de Shin’ichi pour parvenir à bout de leur assaillant."
+    },
+    {
+      "title": "Épisode 5",
+      "description": "Le Parasite Migi et Shinichi développent une relation plus proche et une coopération plus efficace. Shinichi commence à éprouver des conflits internes sur sa propre humanité et sa moralité face à la violence nécessaire pour survivre."
+    },
+    {
+      "title": "Épisode 6: Le soleil se lève aussi",
+      "description": "Après l’attaque du parasite qui contrôle la mère de Shin’ichi, Migi doit traiter le garçon en urgence pour protéger leur vie commune. Le père, quant à lui, en vient à détourner les yeux de la réalité."
+    },
+    {
+      "title": "Épisode 7: Errances dans la nuit",
+      "description": "Cherchant à combattre le parasite qui occupe le corps de sa mère, Shin’ichi se retrouve finalement nez à nez avec Mamoru Uda, un homme dans une situation étonnamment proche de la sienne."
+    },
+    {
+      "title": "Épisode 8: Point de congélation",
+      "description": "Avec l’aide de son nouvel allié, Shin’ichi a pu se débarrasser de son ennemi et quitter Sakurazaki. Seulement, les événements l’ont rendu plus froid, ce qui nuit à sa relation avec Satomi."
+    },
+    {
+      "title": "Épisode 9: Par-delà bien et mal",
+      "description": "L’enquête policière sur les parasites avance petit à petit. Pendant ce temps, la venue de Hideo Shimada pour surveiller Shin’ichi entraîne son lot de soucis au lycée."
+    },
+    {
+      "title":"Épisode 10: L’Univers en folie",
+      "description": "Yûko a découvert la véritable identité de Hideo Shimada, contre lequel elle se défend. Le parasite se retrouve coincé dans sa posture de combat, ne parvenant plus à contrôler ses cellules."
+    },
+    {
+      "title": "Épisode 11: L’Oiseau bleu",
+      "description": "Les parasites sont désormais exposés à la société par la méthode du cheveu, et certains d’entre eux semblent se regrouper pour mieux agir. De son côté, Kana tente toujours se rapprocher de Shin’ichi."
+    },
+    {
+      "title": "Épisode 12: Le pauvre cœur des hommes",
+      "description": "Kana continue de suivre son instinct quand elle détecte le moindre parasite autour d’elle, allant à sa rencontre en espérant retrouver Shin’ichi. Le garçon persiste à lui faire comprendre qu’elle court à chaque fois un grave danger."
+    },
+    {
+      "title": "Épisode 13: Bonjour tristesse",
+      "description": "Au lycée, le bruit court que Shin’ichi est celui qui a découvert le corps de Kana. Les amies du garçon s’étonnent d’ailleurs de son comportement, après ce drame qui aurait dû le remuer."
+    },
+    {
+      "title": "Épisode 14: Le Gène égoïste",
+      "description": "Migi accepte de se plier aux règles de Shin’ichi en laissant la vie sauve au détective qui les file. À la place, il imagine un nouveau plan qui devrait garantir leur sécurité, avec l’aide de leur seul allié."
+    },
+    {
+      "title": "Épisode 15: La Foire des ténèbres",
+      "description": "Ignorant la mise en garde de Migi, le détective Kuramori préfère continuer son enquête en suivant Reiko Tamura et son groupe. Il se fait toutefois dépasser par les événements et entraîne Shin’ichi dans un nouveau conflit."
+    },
+    {
+      "title": "Épisode 16: Une famille heureuse",
+      "description": "Après la mort d’un de leurs congénères, le groupe de parasites mené par Hirokawa décide de contre-attaquer. Shin’ichi et Migi essuient ainsi l’attaque d’un parasite inhabituel, Miki."
+    },
+    {
+      "title": "Épisode 17: Le Détective agonisant",
+      "description": "Les opérations du groupe de Hirokawa se sont soldées par un échec, et certains s’en prennent alors à la menace que représente Reiko Tamura. Attaquée par trois congénères, elle emploie une stratégie hors du commun."
+    },
+    {
+      "title": "Épisode 18: Les Plus qu’humains",
+      "description": "Reiko Tamura trouve Shin’ichi dans le parc où est mort Kuramori. Elle lui expose ses conclusions sur l’existence des parasites, une question à laquelle elle a longuement réfléchi. Rapidement, la police les encercle."
+    },
+    {
+      "title": "Épisode 19: -",
+      "description": "-"
+    },
+    {
+      "title": "Épisode 20: Crime et Châtiment",
+      "description": "L’armée commence son opération d’extermination en faisant évacuer la mairie par petits groupes. Toutefois, le pouvoir de télépathie des parasites permet à Hirokawa de comprendre la situation et de répliquer aussitôt."
+    },
+    {
+      "title": "Épisode 21: Le Sexe et le Sacré",
+      "description": "L’opération militaire tend vers sa conclusion : au prix de lourdes pertes humaines, la plupart des parasites ont été éliminés. Seuls restent Hirokawa, encerclé par plusieurs soldats, et Gotô, dont les capacités hors normes vont donner du fil à retordre à ses assaillants."
+    },
+    {
+      "title": "Épisode 22: Le Calme et l’Éveil",
+      "description": "Le piège tendu par l’armée n’a pas suffi à arrêter Gotô, qui compte bien en finir avec Shin’ichi à cause de son implication dans le massacre des parasites. C’est peu après sa réconciliation avec Satomi que le garçon se retrouve attaqué."
+    },
+    {
+      "title": "Épisode 23: La Vie et la Promesse",
+      "description": "Grâce à ses sens aiguisés, Shin’ichi parvient à retrouver Gotô, mais ne rivalise pas avec son agilité et sa force. Malgré tout, il ne peut pas se résoudre à le laisser en vie et se prépare à accepter sa propre mort à l’issue d’un dernier combat."
+    },
+    {
+      "title": "Épisode 24: Parasite",
+      "description": "Débarrassés de leur principal ennemi, c’est une vie plus paisible que peuvent retrouver Shin’ichi et Migi, dans un monde où les parasites semblent vouloir se faire beaucoup plus discrets. Quelques passes difficiles attendent toutefois encore le jeune homme."
+    }
+  ]
+}
+
 }

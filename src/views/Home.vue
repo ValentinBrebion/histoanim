@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main>
     <h1>HistoAnim</h1>
 
     <v-text-field
@@ -17,8 +17,8 @@
         class="anime-card"
         @click="selectedAnime(anime)"
       >
-        <v-card-title>{{ anime.title }}</v-card-title>
-        <v-card-subtitle>{{ anime.year }}</v-card-subtitle>
+        <v-card-title class="v-card-title">{{ anime.title }}</v-card-title>
+        <v-card-subtitle class="v-card-subtitle">{{ anime.year }}</v-card-subtitle>
       </v-card>
     </div>
 
@@ -48,15 +48,12 @@ const filteredAnimes = computed(() => {
 </script>
 
 <style lang="scss">
-.main {
-  height: 100vh;
-  width: 100%;
+main {
+  min-height: 100vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  padding-top: 100px;
-
   background: linear-gradient(-45deg, #ff6b6b, #f7d794, #1dd1a1, #54a0ff);
   background-size: 400% 400%;
   animation: gradientAnimation 12s ease infinite;
@@ -73,7 +70,10 @@ const filteredAnimes = computed(() => {
     background-position: 0% 50%;
   }
 }
-
+.v-text-field .v-field--no-label input, .v-text-field .v-field--active input {
+ background-color: transparent;
+ border-color: transparent;
+}
 h1 {
   padding-bottom: 40px;
   color: white;
@@ -97,14 +97,29 @@ h1 {
 }
 
 .anime-card {
-  background: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(5px);
   border-radius: 15px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #2c3e50;
+  padding: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 
   &:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.9);
+    
+  }
+  
+  .v-card-title {
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  .v-card-subtitle {
+    color: #5c6bc0;
+    opacity: 0.9;
   }
 }
 
