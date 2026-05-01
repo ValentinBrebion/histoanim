@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import router from '@/router/router';
 
@@ -42,9 +42,6 @@ const props = defineProps({
 const search = ref("");
 const browserLanguage = ref(navigator.language);
 
-const animes = [
-  { id: 1, title: "Parasyte", year: 2002, to: 'parasyte' }
-];
 
 const selectedAnime = (anime) => {
   router.push({ name: anime.to, params: { animeName: anime.to}})
@@ -52,7 +49,7 @@ const selectedAnime = (anime) => {
 
 const filteredAnimes = computed(() => {
   if (!search.value) return [];
-  return animes.filter((anime) =>
+  return props.animes.filter((anime) =>
     anime.title.toLowerCase().includes(search.value.toLowerCase())
   );
 });
