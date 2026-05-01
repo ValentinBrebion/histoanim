@@ -1,10 +1,12 @@
 <template>
   <v-app class="app">
-    <RouterView />
+    <RouterView :animes="animes" />
   </v-app>
 </template>
 
-
+<script setup>
+import animes from "@/data/animes.json";
+</script>
 
 <style lang="scss">
 </style>

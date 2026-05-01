@@ -1,11 +1,10 @@
 <template>
   <main>
-    <h1>HistoAnim</h1>
-
+    <h1>{{ $t('title') }}</h1>
     <v-text-field
       v-model="search"
       hide-details
-      label="Recherche un animé"
+      :label="$t('search')"
       append-inner-icon="mdi-magnify"
       clearable
     ></v-text-field>
@@ -22,14 +21,26 @@
       </v-card>
     </div>
 
-    <p v-else-if="search" class="no-result">Aucun résultat trouvé.</p>
+    <p v-else-if="search" class="no-result">{{ $t('noResult') }}</p>
   </main>
 </template>
 
 <script setup>
-import { ref, computed } from "vue";
-import router from '@/router/router'
+import { ref, computed, onMounted } from 'vue';
+import { useI18n } from 'vue-i18n';
+import router from '@/router/router';
+
+const { t } = useI18n();
+
+const props = defineProps({
+  animes: {
+    type: Object,
+    required: true
+  }
+});
+
 const search = ref("");
+const browserLanguage = ref(navigator.language);
 
 const animes = [
   { id: 1, title: "Parasyte", year: 2002, to: 'parasyte' }
@@ -107,19 +118,8 @@ h1 {
   cursor: pointer;
 
   &:hover {
-    transform: translateY(-3px) scale(1.02);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.9);
-    
-  }
-  
-  .v-card-title {
-    font-weight: 600;
-    transition: color 0.2s ease;
-  }
-  
-  .v-card-subtitle {
-    color: #5c6bc0;
-    opacity: 0.9;
+    color: white;
   }
 }
 

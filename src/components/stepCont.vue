@@ -54,7 +54,7 @@
       <v-btn v-if="hasNextPage" @click="nextPage" color="primary">Page suivante</v-btn>
     </div>
   </div>
-  <!--<bottomNav></bottomNav>-->
+  <bottomNav></bottomNav>
 </template>
 
 <script setup>

@@ -38,7 +38,6 @@
               height="24" 
               style="margin-right: 8px;" 
             />
-            <v-list-item-title>{{ lang.name }}</v-list-item-title>
           </v-list-item>
         </v-list>
       </v-menu>
@@ -51,8 +50,6 @@ import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 
 const router = useRouter();
-const value = ref(0);
-const languageNames = { fr: 'Français', gb: 'English' };
 const flags = import.meta.glob('../assets/country/*.svg', { eager: true, import: 'default' });
 
 const availableLanguages = Object.entries(flags).map(([path, url]) => {
@@ -60,19 +57,18 @@ const availableLanguages = Object.entries(flags).map(([path, url]) => {
   const code = codeMatch ? codeMatch[1] : 'unknown';
   return {
     code,
-    name: languageNames[code] || code,
     flag: url
   };
 });
 
-const currentLanguage = ref('Français');
-const currentFlag = ref(availableLanguages.find(lang => lang.code === 'fr')?.flag || '');
+const browserLang = navigator.language.split('-')[0]
+const defaultLocale = ['fr-FR', 'en'].includes(browserLang) ? browserLang : 'fr'
+const currentFlag = ref(availableLanguages.find(lang => lang.code === defaultLocale)?.flag || '');
 
 
 const changeLanguage = (langCode) => {
   const selectedLang = availableLanguages.find(lang => lang.code === langCode);
   if (selectedLang) {
-    currentLanguage.value = selectedLang.name;
     currentFlag.value = selectedLang.flag;
   }
 };

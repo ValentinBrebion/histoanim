@@ -11,7 +11,28 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # 🔍 Étape ESLint (bloquante)
+      - name: Lint code with ESLint
+        run: npx eslint . --ext .js,.vue
+
+      # (optionnel mais recommandé)
+      - name: Build VitePress
+        run: npm run docs:build
+
       - name: Start deployment
         uses: bobheadxi/deployments@v1
         id: deployment

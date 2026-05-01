@@ -103,6 +103,110 @@
       "description": "Débarrassés de leur principal ennemi, c’est une vie plus paisible que peuvent retrouver Shin’ichi et Migi, dans un monde où les parasites semblent vouloir se faire beaucoup plus discrets. Quelques passes difficiles attendent toutefois encore le jeune homme."
     }
   ]
-}
-
+  },
+  "aot": {
+    "title": "Attack on Titan",
+    "episodes": [
+      {
+        "title": "Épisode 1: Pour toi, dans 2000 ans",
+        "description": "Après 100 ans de paix derrière d'immenses murs, l'humanité est sur le point d'être anéantie par des Titans géants. Eren Jäger voit sa mère être dévorée et jure de tous les exterminer."
+      },
+      {
+        "title": "Épisode 2: Ce jour-là",
+        "description": "Eren, Mikasa et Armin s'engagent dans l'armée pour combattre les Titans. Leurs débuts à l'entraînement sont difficiles mais leur détermination ne faiblit pas."
+      },
+      {
+        "title": "Épisode 3: Dissolution",
+        "description": "Les nouvelles recues découvrent la réalité brutale du combat contre les Titans. Leur première bataille se termine par un massacre qui marque profondément les survivants."
+      },
+      {
+        "title": "Épisode 4: La nuit de la cérémonie de remise des diplômes",
+        "description": "Les soldats choisissent leur division. Eren et ses amis optent pour l'expédition, la plus dangereuse, malgré les avertissements sur le taux de mortalité élevé."
+      }
+    ]
+  },
+  "deathnote": {
+    "title": "Death Note",
+    "episodes": [
+      {
+        "title": "Épisode 1: Renaissance",
+        "description": "Light Yagami, un lycéen brillant, trouve un Death Note. Il découvre que toute personne dont le nom est écrit dans le carnet meurt. Il décide de créer un monde parfait."
+      },
+      {
+        "title": "Épisode 2: Confrontation",
+        "description": "L, le plus grand détective du monde, commence à enquêter sur Kira. Un jeu du chat et de la souris s'engage entre Light et L, chacun essayant de démasquer l'autre."
+      },
+      {
+        "title": "Épisode 3: Transactions",
+        "description": "Light utilise un manipulateur de la foule pour accéder aux informations de police. L intensifie sa surveillance et commence à soupçonner Light de plus en plus."
+      },
+      {
+        "title": "Épisode 4: Pursuite",
+        "description": "Les enquêteurs de L se rapprochent de Light. Ce dernier doit trouver un moyen de continuer ses activités de Kira tout en évitant d'être démasqué."
+      }
+    ]
+  },
+  "onepunch": {
+    "title": "One-Punch Man",
+    "episodes": [
+      {
+        "title": "Épisode 1: L'homme le plus puissant",
+        "description": "Saitama, un héros ordinaire, s'est entraîné si dur qu'il est devenu capable de vaincre n'importe quel ennemi d'un seul coup de poing. Il s'ennuie profondément de cette puissance absolue."
+      },
+      {
+        "title": "Épisode 2: Le cyborg solitaire",
+        "description": "Saitama rencontre Genos, un cyborg qui devient son disciple après avoir été sauvé. Ensemble, ils s'inscrivent à l'association des héros pour obtenir une reconnaissance officielle."
+      },
+      {
+        "title": "Épisode 3: La science obsédée",
+        "description": "Un scientifique fou crée des créatures mutantes pour détruire la ville. Saitama et Genos interviennent, mais Saitama résout le problème avec une facilité déconcertante."
+      },
+      {
+        "title": "Épisode 4: L'ombre qui grandit",
+        "description": "Des mystérieuses créatures apparaissent dans la ville. Les autres héros luttent pendant que Saitama cherche simplement des courses en promotion au supermarché."
+      }
+    ]
+  },
+  "demonslayer": {
+    "title": "Demon Slayer",
+    "episodes": [
+      {
+        "title": "Épisode 1: La cruauté",
+        "description": "Kamado Tanjiro vit paisiblement avec sa famille dans les montagnes. Un jour, il retourne au village pour vendre du charbon et découvre que sa famille a été massacrée par un démon."
+      },
+      {
+        "title": "Épisode 2: Le formateur Sakonji Urokodaki",
+        "description": "Tanjiro rencontre Giyu Tomioka qui lui indique un maître pour devenir pourfendeur de démons. Il commence un entraînement intensif avec Sakonji Urokodaki."
+      },
+      {
+        "title": "Épisode 3: Sabre à double tranchant",
+        "description": "Nezuko, la sœur de Tanjiro transformée en démon, montre des signes d'humanité. Tanjiro participe à la sélection finale pour devenir pourfendeur officiel."
+      },
+      {
+        "title": "Épisode 4: Le choix ultime",
+        "description": "Tanjiro réussit la sélection et reçoit son sabre. Il commence sa première mission officielle dans une ville hantée par des démons."
+      }
+    ]
+  },
+  "steinsgate": {
+    "title": "Steins;Gate",
+    "episodes": [
+      {
+        "title": "Épisode 1: Le point de départ et la fin",
+        "description": "Okabe Rintarou, un auto-proclamé scientifique fou, et ses amis créent des gadgets dans leur laboratoire. Ils découvrent par hasard une méthode pour envoyer des messages dans le passé."
+      },
+      {
+        "title": "Épisode 2: Le chaos de la paranoïa",
+        "description": "Le groupe continue d'expérimenter les D-mails. Okabe commence à remarquer des changements subtils dans la réalité, mais seul il semble s'en rendre compte."
+      },
+      {
+        "title": "Épisode 3: Équilibre parallèle",
+        "description": "Les D-mails commencent à avoir des conséquences graves. Le laboratoire est infiltré par une organisation mystérieuse qui semble connaître leurs expériences."
+      },
+      {
+        "title": "Épisode 4: La stase asymptotique",
+        "description": "Okabe réalise qu'il peut traverser les lignes du monde. Il découvre l'existence de SERN et comprend le danger que représente leur découverte des voyages temporels."
+      }
+    ]
+  }
 }
